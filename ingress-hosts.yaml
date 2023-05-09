@@ -14,12 +14,3 @@ spec:
             name: app-v1
             port:
               number: 8080
-  - http:
-      paths:
-      - path: /appv1
-        pathType: Prefix
-        backend:
-          service:
-            name: app-v1
-            port:
-              number: 8080
